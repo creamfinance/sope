@@ -57,6 +57,7 @@ typedef enum {
     BOOL hasHelp:1;
     BOOL hasPipelining;
     BOOL hasAuthPlain;
+    BOOL hasAuthLogin;
   } extensions;
 }
 
